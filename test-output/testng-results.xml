@@ -2,38 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-14T11:05:14 IST" name="Default suite" finished-at="2023-04-14T11:05:14 IST" duration-ms="40">
+  <suite started-at="2023-04-14T11:32:42 IST" name="Default suite" finished-at="2023-04-14T11:32:42 IST" duration-ms="33">
     <groups>
     </groups>
-    <test started-at="2023-04-14T11:05:14 IST" name="Default test" finished-at="2023-04-14T11:05:14 IST" duration-ms="40">
-      <class name="Sample.Sample2test">
-        <test-method signature="add()[pri:0, instance:Sample.Sample2test@18ce0030]" started-at="2023-04-14T11:05:14 IST" name="add" finished-at="2023-04-14T11:05:14 IST" duration-ms="6" status="PASS">
+    <test started-at="2023-04-14T11:32:42 IST" name="Default test" finished-at="2023-04-14T11:32:42 IST" duration-ms="33">
+      <class name="Sample.SubtractTest">
+        <test-method signature="subtract()[pri:0, instance:Sample.SubtractTest@18ce0030]" started-at="2023-04-14T11:32:42 IST" name="subtract" finished-at="2023-04-14T11:32:42 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- add -->
-      </class> <!-- Sample.Sample2test -->
-
-  <suite started-at="2023-04-14T11:13:35 IST" name="Default suite" finished-at="2023-04-14T11:13:35 IST" duration-ms="32">
-    <groups>
-    </groups>
-    <test started-at="2023-04-14T11:13:35 IST" name="Default test" finished-at="2023-04-14T11:13:35 IST" duration-ms="32">
-      <class name="Sample.AdditionTest">
-        <test-method signature="add()[pri:0, instance:Sample.AdditionTest@18ce0030]" started-at="2023-04-14T11:13:35 IST" name="add" finished-at="2023-04-14T11:13:35 IST" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- add -->
-      </class> <!-- Sample.AdditionTest -->
-
-  <suite started-at="2023-04-14T10:54:12 IST" name="Default suite" finished-at="2023-04-14T10:54:12 IST" duration-ms="39">
-    <groups>
-    </groups>
-    <test started-at="2023-04-14T10:54:12 IST" name="Default test" finished-at="2023-04-14T10:54:12 IST" duration-ms="39">
-      <class name="Sample.Sampletest">
-        <test-method signature="sample()[pri:0, instance:Sample.Sampletest@78aab498]" started-at="2023-04-14T10:54:12 IST" name="sample" finished-at="2023-04-14T10:54:12 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- Sample.Sampletest -->
+        </test-method> <!-- subtract -->
+      </class> <!-- Sample.SubtractTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
