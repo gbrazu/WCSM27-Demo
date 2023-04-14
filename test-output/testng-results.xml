@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-13T11:20:52 IST" name="Default suite" finished-at="2023-04-13T11:20:52 IST" duration-ms="42">
+  <suite started-at="2023-04-14T11:05:14 IST" name="Default suite" finished-at="2023-04-14T11:05:14 IST" duration-ms="40">
     <groups>
     </groups>
-    <test started-at="2023-04-13T11:20:52 IST" name="Default test" finished-at="2023-04-13T11:20:52 IST" duration-ms="42">
-      <class name="Sample.Demo">
-        <test-method signature="demo()[pri:0, instance:Sample.Demo@18ce0030]" started-at="2023-04-13T11:20:52 IST" name="demo" finished-at="2023-04-13T11:20:52 IST" duration-ms="8" status="PASS">
+    <test started-at="2023-04-14T11:05:14 IST" name="Default test" finished-at="2023-04-14T11:05:14 IST" duration-ms="40">
+      <class name="Sample.Sample2test">
+        <test-method signature="add()[pri:0, instance:Sample.Sample2test@18ce0030]" started-at="2023-04-14T11:05:14 IST" name="add" finished-at="2023-04-14T11:05:14 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- demo -->
-      </class> <!-- Sample.Demo -->
+        </test-method> <!-- add -->
+      </class> <!-- Sample.Sample2test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
