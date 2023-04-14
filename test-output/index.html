@@ -51,11 +51,14 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\v-bgelli\AppData\Local\Temp\testng-eclipse--444474350\testng-customsuite.xml</span>
+
 
                     <span>C:\Users\v-bgelli\AppData\Local\Temp\testng-eclipse-1446101835\testng-customsuite.xml</span>
 
                     <span>C:\Users\v-bgelli\AppData\Local\Temp\testng-eclipse--1756822724\testng-customsuite.xml</span>
 
+ 
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -108,6 +111,8 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Sample.Sample2test" class="method navigator-link" hash-for-method="add">add</a> <!-- method navigator-link -->
+
 
                         <a href="#" panel-name="suite-Default_suite" title="Sample.AdditionTest" class="method navigator-link" hash-for-method="add">add</a> <!-- method navigator-link -->
 
@@ -130,6 +135,8 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">Sample.Sample2test</span>
+
 
               <span class="class-name">Sample.AdditionTest</span>
 
@@ -139,6 +146,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="add">
+                  </a> <!-- add -->
+                  <span class="method-name">add</span>
+
 
                   <a name="add">
                   </a> <!-- add -->
@@ -155,6 +166,8 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\v-bgelli\AppData\Local\Temp\testng-eclipse--444474350\testng-customsuite.xml</span>
+
 
             <span class="header-content">C:\Users\v-bgelli\AppData\Local\Temp\testng-eclipse-1446101835\testng-customsuite.xml</span>
 
@@ -168,6 +181,8 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;Sample.Sample2test&quot;/&gt;
+
 
       &lt;class name=&quot;Sample.AdditionTest&quot;/&gt;
 
@@ -214,6 +229,10 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
+data.setCell(0, 1, 'add')
+data.setCell(0, 2, 'Sample.Sample2test')
+data.setCell(0, 3, 6);
+
 
 data.setCell(0, 1, 'add')
 data.setCell(0, 2, 'Sample.AdditionTest')
@@ -227,6 +246,8 @@ window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-
 return data;
 }
               </script>
+              <span class="suite-total-time">Total running time: 6 ms</span>
+
 
               <span class="suite-total-time">Total running time: 5 ms</span>
 
@@ -257,6 +278,10 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">Sample.Sample2test</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">add</span>
+
 
               <div class="chronological-class-name">Sample.AdditionTest</div> <!-- chronological-class-name -->
               <div class="test-method">
